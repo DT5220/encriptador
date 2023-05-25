@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initical-scale=1.0">
+        <link rel="shortcut icon" href="images/LogoA.png">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/styleHover.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+        <title>&#128680; Encriptador &#128680;</title>
+    </head>
+
+    <body>
+        <header>
+            <img class="logo" src="/images/LogoA.png" alt="logo de alura">
+            <h1 data-value="ENCRIPTADOR">ENCRIPTADOR</h1>
+        </header>
+        <main>
+            <section>
+                <textarea class="text-area" cols="40" rows="6" placeholder="Ingrese el texto aqui"></textarea>
+                <div >
+                    <h6 class="informacion" >&#128683; &#128584; Solo letras minúsculas y sin acentos.</h6>
+                </div>
+                <div class="botones">
+                    <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+                    <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
+            </section>
+            <section class="rectangulo">
+                <textarea class="mensaje" cols="20" rows="10"></textarea>
+                <div>
+                    <button class="copiar" onclick="copiar()">Copiar</button>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <p class="copyright"> &copy Copyright 2023</p>
+        </footer>
+    </body>
+    <script src="/js/script.js"></script>
+    <script src="/js/scriptHover.js"></script>
+</html>
